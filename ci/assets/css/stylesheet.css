@@ -1,0 +1,151 @@
+@font-face {
+    font-family: 'caviar';
+    src: url('CaviarDreams-webfont.eot');
+    src: url('CaviarDreams-webfont.eot?#iefix') format('embedded-opentype'),
+         url('CaviarDreams-webfont.woff') format('woff'),
+         url('CaviarDreams-webfont.ttf') format('truetype'),
+         url('CaviarDreams-webfont.svg#caviar_dreamsregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html,
+body {
+  overflow-x: hidden; /* Prevent scroll on narrow devices */
+}
+
+
+html{
+	background-color: #5E5D5E;
+}
+
+body{
+	
+	font-family: 'caviar', 'Century Gothic', sans-serif;
+	background-color: #FFF;
+
+}
+
+footer {
+  padding: 30px 0;
+}
+
+a{
+	text-decoration: none;
+	color: #5E5D5E;
+}
+
+a:hover{
+	/*color: #ededed;*/
+	font-weight: bold;
+	/*background-color: #36385D;*/
+	text-decoration: none;
+}
+
+ul{
+	list-style: none;
+}
+
+#logo h1{
+	font-size: 48px;
+	margin-left: 10px;
+	margin-bottom: 0px;
+}
+
+#logo h2{
+	font-size: 12px;
+	margin-left: 50px;
+	margin-top: 0px;
+}
+
+.photo{
+	background-color: #000;
+	width: 150px;
+	height: 150px;
+	margin-left: 50px;
+}
+
+#categ{
+	float: left;
+}
+
+#categ li{
+	padding: 5px;
+}
+
+#content{
+	width: 850px;
+	float: left;
+}
+
+.photog{
+	width: 400px;
+	background-color: #eee;
+	height: 400px;
+	float: left;
+}
+
+.desc{
+	float:left;
+	margin-left: 15px;
+	padding-left: 0px;
+	margin-top: 18px;
+}
+
+.desc h2{
+	font-size: 15px;
+}
+
+.descItem h1{
+
+}
+
+.clearfix{
+	clear:both;
+}
+
+#news{
+	padding-left: 20px;
+}
+
+.cmd{
+	margin-top: 25px;
+}
+
+
+/*
+ * Off Canvas
+ * --------------------------------------------------
+ */
+@media screen and (max-width: 767px) {
+  .row-offcanvas {
+    position: relative;
+    -webkit-transition: all 0.25s ease-out;
+    -moz-transition: all 0.25s ease-out;
+    transition: all 0.25s ease-out;
+  }
+
+  .row-offcanvas-right
+  .sidebar-offcanvas {
+    right: -50%; /* 6 columns */
+  }
+
+  .row-offcanvas-left
+  .sidebar-offcanvas {
+    left: -50%; /* 6 columns */
+  }
+
+  .row-offcanvas-right.active {
+    right: 50%; /* 6 columns */
+  }
+
+  .row-offcanvas-left.active {
+    left: 50%; /* 6 columns */
+  }
+
+  .sidebar-offcanvas {
+    position: absolute;
+    top: 0;
+    width: 50%; /* 6 columns */
+  }
+}
